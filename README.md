@@ -1,4 +1,4 @@
-# helm-dnspod-webhook-cert-manager-example
+# helm-alidns-webhook-cert-manager-example
 
 Alidns-webhook-cert-manager is a cert-manager plugin to manage SSL certificates on Kubernetes. 
 
