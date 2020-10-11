@@ -6,6 +6,8 @@ Along with Nginx Ingress, you can configure HTTPS access to the website. With Le
 
 You can modify it and use Alidns-webhook-cert-manager. There is example about installing it with Helm in the article.
 
+<!-- more -->
+
 ## Prerequisites
 
 - [Kubernetes(K8S)](https://kubernetes.io/)
@@ -119,7 +121,8 @@ See pods about cert-manager-webhook-alidns.
 
 ```shell
 $ kubectl get pods -n cert-manager
-...
+NAME                                           READY   STATUS    RESTARTS   AGE
+cert-manager-webhook-alidns-748956665b-ltxpj   1/1     Running   3          13d
 ```
 
 ## References
