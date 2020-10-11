@@ -1,3 +1,0 @@
-[submodule "cert-manager-webhook-alidns"]
-	path = cert-manager-webhook-alidns
-	url = https://github.com/CloudoLife/cert-manager-webhook-alidns.git
