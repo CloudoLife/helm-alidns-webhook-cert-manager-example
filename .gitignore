@@ -2,7 +2,7 @@
 
 # First, Denylist ignore everything
 *
-*/**
+!*/
 
 # Allowlist the file or folder
 # !NotIgnoredFile
@@ -17,4 +17,4 @@
 !README.md
 !values.yaml
 
-!cert-manager-webhook-alidns/**
+!cert-manager-webhook-alidns/
